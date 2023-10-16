@@ -55,7 +55,7 @@ Now, I build a Simple Linear Regression Model using **price** as response and **
 
 In the next step, I use the test set to predict the model outcomes (unknown house price) and define the model evaluationb metrics such as MAE (Mean Absolute Error), MSE (Mean Standard Error), R-Squared statistics , RSS (Residual Sum of Squares) etc.
 
-**. Multiple Linear Regression Model and Predicting with Model Evaluation Metrics:**
+**6. Multiple Linear Regression Model and Predicting with Model Evaluation Metrics:**
 
 
 
