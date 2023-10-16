@@ -34,7 +34,32 @@ Here I gone through some steps or stages to complete this project. In this proje
 
 **1. Basic Data Exploration:**
 
-In this step, 
+In this step, I read the data set using pandas read_csv() function in a variable called df. I then perform basic data exploration steps such as finding the shape, the column names and column types. I check all the codes working properly by using .head() method on the data frame df. After this to get a statistical summary of the numerical data in the data frame df , I use the .describe() method.
+
+**2. Creating the Project Data Set:**
+
+Here, I didn't consider the whole data set to malke the model. I only use the columns **price**, **livingArea**, **bedrooms**, **rooms** and **age**. I saved this short data in a variable called **reg**.
+
+**3. Plotting the data:**
+
+Here, firstly I used a histogram to show the distribution of data that are in the reg data frame. Then I plot a scatter plot of age, bedrooms,rooms and age against price to see if there exists any linear relationship. It is evident that in all cases, we can't pedict the relationship by just seeing the scatter plot.
+
+**4. Train-Test Split:**
+
+Now, the basic idea of this project is to build a model and train it with the train set (80% of the data) and use test set (20% of data) to check the model accuracy using different evaluation metrics. After that I plot the graph for train and test set to see whether there exists any different trend than normal data set plotting.
+
+**5. Simple Linear Regression Model and Predicting with Model Evaluatio Metrics:**
+
+Now, I build a Simple Linear Regression Model using **price** as response and **livingArea** as predictor. After building the model, I get the model intercept and the model coefficeint. One thing to remember that **np.asanyarray()** function is used to convert  data frame to an array as sklearn works only on array. After building and getting the model, I plotted them using scatter plot and line plot. The line we get is the best fit line of the model, also called as Regression Line. This line estiomates the error of the models as much small as possible. 
+
+
+In the next step, I use the test set to predict the model outcomes (unknown house price) and define the model evaluationb metrics such as MAE (Mean Absolute Error), MSE (Mean Standard Error), R-Squared statistics , RSS (Residual Sum of Squares) etc.
+
+**. Multiple Linear Regression Model and Predicting with Model Evaluation Metrics:**
+
+
+
+
 
 
 
