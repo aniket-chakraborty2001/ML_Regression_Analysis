@@ -26,7 +26,15 @@ To perform this Regression Analysis , there are many algorithms we can follow. T
 
 ## About the SaratogaHouses Data set
 
-This data set named **SaratogaHouses** has 
+The data set is also attached in the file section of this project. This data set is easily available in GitHub as well as in Kaggle. This data set named **SaratogaHouses** has 1728 rows/observations and 16 columns/features/attributes/values. Generally the **price** column is considered as the **Response Variable**. The other columns can be considered as predictor variables. Observe that column **price** is a continuous column and other column are of mixed type. 
+
+## Project Stages
+
+Here I gone through some steps or stages to complete this project. In this project I build both Simple and Multiple Linaer Regression Model using the **sklearn** library and it's different modules. Here are detailed stages of this project.
+
+**1. Basic Data Exploration:**
+
+In this step, 
 
 
 
