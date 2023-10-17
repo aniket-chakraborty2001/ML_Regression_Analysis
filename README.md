@@ -50,25 +50,9 @@ Now, the basic idea of this project is to build a model and train it with the tr
 
 **5. Simple Linear Regression Model and Predicting with Model Evaluatio Metrics:**
 
-Now, I build a Simple Linear Regression Model using **price** as response and **livingArea** as predictor. After building the model, I get the model intercept and the model coefficeint. One thing to remember that **np.asanyarray()** function is used to convert  data frame to an array as sklearn works only on array. After building and getting the model, I plotted them using scatter plot and line plot. The line we get is the best fit line of the model, also called as Regression Line. This line estiomates the error of the models as much small as possible. 
+Now, I build a Simple Linear Regression Model using **price** as response and **livingArea** as predictor. After building the model, I get the model intercept and the model coefficeint. One thing to remember that **np.asanyarray()** function is used to convert  data frame to an array as sklearn works only on array. After building and getting the model, I plotted them using scatter plot and line plot. The line we get is the best fit line of the model, also called as Regression Line. This line estiomates the error of the models as much small as possible. In the next step, I use the test set to predict the model outcomes (unknown house price) and define the model evaluationb metrics such as MAE (Mean Absolute Error), MSE (Mean Standard Error), R-Squared statistics , RSS (Residual Sum of Squares) etc. To define R-Squared value, I use **r2_score()** function. This function takes two parameters. One is the predicted House price and another one is the true response value of the test set.
 
-
-In the next step, I use the test set to predict the model outcomes (unknown house price) and define the model evaluationb metrics such as MAE (Mean Absolute Error), MSE (Mean Standard Error), R-Squared statistics , RSS (Residual Sum of Squares) etc.
 
 **6. Multiple Linear Regression Model and Predicting with Model Evaluation Metrics:**
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+In Multiple Linear Regression, I consider the column **price** as countinuous response variable and the columns **livingArea**, **rooms**, **age**, and **bedrooms** as predictor variables. One thing to remember that here I consider only countinuous variables. Linear Regression model can be made by using categorical independent variables also. After building the model with train sets, I predict the model outcome with the help of test set. I use **liner_model module of sklearn** package. I also get the model intercept value and as well as the coefficients of the model. In total I get five model coefficients(including intercept). After using **metrics module of sklearn** , I get the Model Evaluation Metrics such as MAE, MSE, RSS and R-Squared value. To define R-Squared value, I use **r2_score()** function. This function takes two parameters. One is the predicted House price and another one is the true response value of the test set.
